@@ -27,7 +27,6 @@ a {
 .header {
     padding: 39px 0;
     margin: 0 0 160px 0;
-
 }
 
 .logo {
@@ -129,7 +128,7 @@ a {
     background-color: transparent;
 }
 
-.top-content-photo {
+.top-content-icon.features-item-icon {
     width: 545px;
     height: 375px;
 }
@@ -140,3 +139,202 @@ a {
     justify-content: center;
     gap: 48px;
 }
+
+/* ---------features---------- */
+
+.features {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features-list {
+    list-style: none;
+    /* outline: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    gap: 61px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-item {
+    /* outline: 1px solid black; */
+    max-width: 310px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.features-item__big {
+    max-width: 370px;
+    max-height: 291px;
+    background: #ffffff;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.features-item-icon {
+    margin-bottom: 25px;
+}
+
+.features-item-icon__1 {
+    width: 70px;
+    height: 70px;
+
+    background: rgba(242, 88, 34, 0.25);
+    border-radius: 15px;
+    background-image: url(/img/features-item-icon__1.svg);
+}
+
+.features-item-icon__2 {
+    width: 70px;
+    height: 70px;
+
+    background: rgba(20, 146, 17, 0.28);
+    border-radius: 15px;
+    background-image: url(/img/features-item-icon__2.svg);
+}
+
+.features-item-icon__3 {
+    width: 70px;
+    height: 70px;
+
+    background: rgba(255, 205, 29, 0.24);
+    border-radius: 15px;
+    background-image: url(/img/features-item-icon__3.svg);
+}
+
+.features-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 17px;
+}
+
+.features-item-txt {
+    line-height: 22px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.features-item-btn {
+    width: 64px;
+    height: 17px;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.features-item-btn-big {
+    padding-bottom: 25px;
+}
+
+/* ---------END features---------- */
+
+/* ---------services--------- */
+.services {
+    background: #FAFAFA;
+}
+
+.services-title {
+    text-align: center;
+    max-width: 682px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-bottom: 55px;
+}
+
+.services-title-main {
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.services-title-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.services-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.services-item {
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services-item-center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.services-item-photo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 385px;
+    height: 289px;
+}
+
+.services-item-photo-1 {
+    background-image: url(/img/services-item-photo-1.svg);
+}
+
+.services-item-photo-2 {
+    background-image: url(/img/services-item-photo-2.svg);
+}
+
+.services-item-photo-3 {
+    background-image: url(/img/services-item-photo-3.svg);
+}
+
+.services-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 22px;
+    margin-top: 25px;
+}
+
+.services-item-txt {
+    font-size: 15px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #aaaaaa;
+    margin-bottom: 39px;
+}
+
+.services-item-btn-wrp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.services-item-btn {
+    display: block;
+    border: none;
+    max-width: 217px;
+    width: 100%;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    background-color: #F25822;
+    color: white;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* ---------END services--------- */
